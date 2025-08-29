@@ -1,120 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ali Tiffin Service</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #fafafa;
-      color: #333;
-    }
-    header {
-      background: #e63946;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    header p {
-      margin: 5px 0 0;
-    }
-    nav {
-      background: #f1f1f1;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .menu-item {
-      background: #fff;
-      margin: 15px 0;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    footer {
-      background: #333;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 30px;
-    }
-    .cta {
-      display: inline-block;
-      margin: 15px 10px;
-      padding: 12px 20px;
-      background: #e63946;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-    }
-    .cta:hover {
-      background: #c9202e;
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ali Tiffin Service - Tiffinshala Style</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Ali Tiffin Service</h1>
-    <p>Ghar jaisa swad, har din, har meal!</p>
-  </header>
-
-  <nav>
-    <a href="#about">About Us</a>
-    <a href="#menu">Menu</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Ali Tiffin Service Indore ka ek trusted tiffin centre hai jo har meal fresh aur time par deliver karta hai. Humari team khane ki quality aur taste par kabhi compromise nahi karti. Ghar jaisa swad, pocket-friendly price aur 7 din service – yahi hamari guarantee hai.</p>
-  </section>
-
-  <section id="menu">
-    <h2>Our Menu</h2>
-    <div class="menu-item">
-      <h3>Veg Thali – ₹80</h3>
-      <p>4 Roti, 1 Sabzi, Dal, Chawal, Salad</p>
+<header class="site-header">
+  <div class="container">
+    <div class="brand">
+      <h1>Ali Tiffin Service</h1>
+      <p class="tag">Ghar jaisa swad • Rozana Delivered • (Mon–Sun)</p>
     </div>
-    <div class="menu-item">
-      <h3>Special Thali – ₹120</h3>
-      <p>4 Roti, 2 Sabzi, Dal, Chawal, Sweet, Salad</p>
+    <div class="actions">
+      <a class="phone" href="tel:+919109532111">📞 9109532111</a>
+      <a class="order" href="https://wa.me/919109532111" target="_blank">📲 Order on WhatsApp</a>
     </div>
-    <div class="menu-item">
-      <h3>Monthly Plan – ₹2000</h3>
-      <p>Lunch + Dinner, 30 Days</p>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner container">
+    <div class="hero-left">
+      <h2>Fresh Homemade Tiffins — Delivered Daily</h2>
+      <p>Healthy, hygienic and delicious meals made with love. Subscribe weekly or monthly.</p>
+      <div class="hero-ctas">
+        <a class="btn primary" href="https://wa.me/919109532111" target="_blank">Order Now</a>
+        <a class="btn outline" href="#menu">View Menu</a>
+      </div>
     </div>
-  </section>
+    <div class="hero-right">
+      <img src="images/food1.jpg" alt="Delicious tiffin">
+    </div>
+  </div>
+</section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p><strong>Address:</strong> 8, New Khizrabad Colony, Khajrana, Indore</p>
-    <p><strong>Phone:</strong> <a href="tel:9109532111">9109532111</a></p>
-    <p><strong>WhatsApp:</strong> <a href="https://wa.me/919109532111">Chat Now</a></p>
-    <p><strong>Timings:</strong> Monday – Sunday, 9:00 AM – 9:00 PM</p>
+<section id="why" class="container why">
+  <h3>Why Choose Ali Tiffin Service?</h3>
+  <div class="features">
+    <div class="feature">
+      <strong>Hygienic</strong>
+      <p>Home-cooked recipes prepared in a clean kitchen.</p>
+    </div>
+    <div class="feature">
+      <strong>On-Time Delivery</strong>
+      <p>Reliable delivery — morning and evening, every day.</p>
+    </div>
+    <div class="feature">
+      <strong>Affordable Plans</strong>
+      <p>Daily, weekly and monthly plans to suit your budget.</p>
+    </div>
+  </div>
+</section>
 
-    <a class="cta" href="tel:9109532111">📞 Call Now</a>
-    <a class="cta" href="https://wa.me/919109532111">📲 Order on WhatsApp</a>
-  </section>
+<section id="menu" class="container menu">
+  <h3>Popular Plans</h3>
+  <div class="cards">
+    <div class="card">
+      <img src="images/food2.jpg" alt="Special Thali">
+      <h4>Veg Thali</h4>
+      <p class="price">₹80</p>
+      <p>Roti, Sabzi, Dal, Rice, Salad</p>
+    </div>
+    <div class="card">
+      <img src="images/food3.jpg" alt="Dal Chawal">
+      <h4>Special Thali</h4>
+      <p class="price">₹120</p>
+      <p>2 Sabzi, Dal, Rice, Sweet</p>
+    </div>
+    <div class="card">
+      <img src="images/food4.jpg" alt="Paneer Sabzi">
+      <h4>Monthly Plan</h4>
+      <p class="price">₹2000</p>
+      <p>Lunch + Dinner • 30 Days</p>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    <p>© 2025 Ali Tiffin Service | Fresh Food, Daily Delivered</p>
-  </footer>
+<section class="gallery container">
+  <h3>Gallery</h3>
+  <div class="grid">
+    <img src="images/food1.jpg" alt="food1">
+    <img src="images/food2.jpg" alt="food2">
+    <img src="images/food3.jpg" alt="food3">
+    <img src="images/food4.jpg" alt="food4">
+    <img src="images/food5.jpg" alt="food5">
+    <img src="images/food6.jpg" alt="food6">
+  </div>
+</section>
+
+<section id="contact" class="container contact">
+  <h3>Contact & Order</h3>
+  <div class="contact-grid">
+    <form onsubmit="event.preventDefault(); alert('Thank you! We will contact you shortly.');">
+      <input type="text" placeholder="Your name" required>
+      <input type="tel" placeholder="Phone or WhatsApp">
+      <textarea placeholder="Message / Order details" required></textarea>
+      <button class="btn primary" type="submit">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <p>📍 8, New Khizrabad Colony, Khajrana, Indore</p>
+      <p>📞 <a href="tel:+919109532111">+91 9109532111</a></p>
+      <p>💬 <a href="https://wa.me/919109532111" target="_blank">Chat on WhatsApp</a></p>
+      <div class="testimonials">
+        <h4>Customer Reviews</h4>
+        <blockquote>"Fresh food, timely delivery. Highly recommended!" — Komal</blockquote>
+        <blockquote>"Affordable monthly plan and great taste." — Ramesh</blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2025 Ali Tiffin Service • Tiffinshala-style template</p>
+  </div>
+</footer>
+
 </body>
 </html>
